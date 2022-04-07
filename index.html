@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabin</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-image: url(back.png);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            width: 90%;
+            max-width: 440px;
+            color: #fff;
+            text-align: center;
+            padding: 50px 35px;
+            border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.2) ;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+            backdrop-filter: blur(5px);
+        }
+        .card img{
+            width: 190px;
+            border-radius: 50%;
+        }
+        .card h2{
+            font-size: 40px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        .card p{
+            font-size: 18px;
+            margin: 10px auto;
+            max-width: 330px;
+        }
+        .card .links img{
+            width: 40px;
+            border-radius: 50%;
+            margin: 10px 5px;
+            transition: background 0.5s;
+        }
+        .card .links img:hover{
+            background: #ff01cf;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" data-tilt>
+            <img src="IMG_E0360.JPG">
+            <h2>Nabin Sapkota</h2>
+            <p>I'm student of Kist College Studing BIT.</sp>
+                <div class="links">
+                    <a href="https://facebook.com"><img src="facebook.png"></a>
+                    <a href="https://twitter.com"><img src="twitter.png"></a>
+                    <a href="https://telegram.com"><img src="telegram.png"></a>
+                </div>
+        </div>
+    </div>
+    <script src="vanilla-tilt.js"></script>
+</body>
+</html>
